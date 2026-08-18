@@ -35,69 +35,93 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
   const slides: SlideItem[] = [
     {
       id: 0,
-      badge: 'Signature Masterpiece',
-      badgeBengali: 'রেশম সূচিশিল্প',
-      title: 'Threads That Tell Stories',
-      titleBengali: 'সুতোয় গাঁথা গল্প, যত্নে তৈরি শিল্প',
-      quote: 'Hand-stitched on raw tussar silk depicting a Bengali woman rowing a flower boat across tranquil azure waters.',
-      quoteBengali: 'তসর রেশমের উপর শান্ত নদী ও ফুলে ভরা নৌকার চিরায়ত রূপকথা।',
+      badge: 'Folk Art',
+      badgeBengali: 'লোকশিল্প',
+      title: 'A Little House Full of Stories',
+      titleBengali: 'তারাভরা আকাশের নিচে ছোট্ট ঘর',
+      quote:
+        'A charming hand-stitched artwork where a little house, trees, flowers, and a starry sky come together in a colorful village-inspired story.',
+      quoteBengali:
+        'কালো কাপড়ের বুকে রঙিন সুতোর ফোঁড়ে ছোট্ট ঘর, গাছপালা, ফুল আর তারাভরা রাতের আকাশ—একটি মায়াময় গ্রামের গল্প।',
       artworkId: 1,
       highlightColor: '#C9A45C',
-      accentGradient: 'from-[#0F3829] via-[#174D38] to-[#0A261B]',
-      techniqueTag: 'Raw Tussar Silk • Gold Zari Contouring',
+      accentGradient:
+        'from-[#0F3829] via-[#174D38] to-[#0A261B]',
+      techniqueTag:
+        'Hand Embroidery • Floral & Nature Threadwork',
     },
+
     {
       id: 1,
-      badge: 'Heritage & Cinema',
-      badgeBengali: 'সিনেমা ও স্মৃতি',
-      title: 'Pather Panchali in Stitches',
-      titleBengali: 'পথের পাঁচালী: কাশবনে অপু ও দুর্গা',
-      quote: 'Durga and Apu running through blooming white Kash fields towards the smoking steam train under starry skies.',
-      quoteBengali: 'সত্যজিৎ রায়ের অমর স্মৃতি—কাশবনের মধ্য দিয়ে রেলগাড়ি দেখার স্বপ্নে ছুটে চলা দুই ভাইবোন।',
-      artworkId: 3,
-      highlightColor: '#F59E0B',
-      accentGradient: 'from-[#1A1A1A] via-[#2D3748] to-[#111827]',
-      techniqueTag: 'Contrast Silk on Black Canvas • Walnut Frame',
+      badge: 'Bengali Village Story',
+      badgeBengali: 'গ্রামবাংলার গল্প',
+      title: 'A Village Story in Every Stitch',
+      titleBengali: 'সেলাইয়ের ফোঁড়ে গ্রামের গল্প',
+      quote:
+        'A narrative textile artwork bringing together a Bengali village scene, nature, people, and everyday life through colorful hand embroidery.',
+      quoteBengali:
+        'মানুষ, প্রকৃতি ও গ্রামজীবনের নানা দৃশ্যকে রঙিন সুতোর ফোঁড়ে একসঙ্গে বুনে তৈরি হয়েছে একটি সম্পূর্ণ গল্প।',
+      artworkId: 4,
+      highlightColor: '#D97706',
+      accentGradient:
+        'from-[#2F1E0E] via-[#59391D] to-[#1F140A]',
+      techniqueTag:
+        'Narrative Embroidery • Landscape Stitchwork',
     },
+
     {
       id: 2,
-      badge: 'Folk Mystic Art',
-      badgeBengali: 'মাটির সুর ও বাউল গান',
-      title: 'The Baul Mystic with Ektara',
-      titleBengali: 'একতারা হাতে বাউল সাধক',
-      quote: 'A folk singer raising his ektara melody across lush green paddy fields, thatched cottages, and songbirds.',
-      quoteBengali: 'বাংলার মেঠোপথ ও একতারার সুরকে ক্যানভাসে জীবন্ত করে তোলা নিখুঁত ফোঁড়।',
-      artworkId: 2,
-      highlightColor: '#D97706',
-      accentGradient: 'from-[#2F1E0E] via-[#59391D] to-[#1F140A]',
-      techniqueTag: 'Running Kantha Stitch • Archival Gold Frame',
+      badge: 'Framed Textile Art',
+      badgeBengali: 'ফ্রেমে বাঁধানো শিল্প',
+      title: 'A Story Framed in Thread',
+      titleBengali: 'ফ্রেমে বাঁধানো সুতোর গল্প',
+      quote:
+        'A carefully framed embroidered scene where colorful figures, nature, and surroundings are created entirely through detailed needlework.',
+      quoteBengali:
+        'রঙিন সুতোর সূক্ষ্ম কাজে মানুষ, প্রকৃতি ও চারপাশের জীবনকে ফ্রেমের মধ্যে একটি সম্পূর্ণ গল্পে রূপ দেওয়া হয়েছে।',
+      artworkId: 6,
+      highlightColor: '#C9A45C',
+      accentGradient:
+        'from-[#172B24] via-[#315447] to-[#0D1D17]',
+      techniqueTag:
+        'Fine Hand Embroidery • Narrative Stitchwork',
     },
+
     {
       id: 3,
-      badge: 'Traditional Literary Quilt',
-      badgeBengali: 'ছড়া ও বর্ণপরিচয়',
-      title: 'Nursery Rhyme Nakshi Kantha',
-      titleBengali: 'ছড়ার নকশী কাঁথা ও লোকজ মোটিফ',
-      quote: 'Classic Bengali rhymes stitched with dancing elephants, horses, flowers, and deep green borders.',
-      quoteBengali: 'চাঁদ উঠেছে ফুল ফুটেছে ও হাতি নাচছে ঘোড়া নাচছে—শৈশবের প্রিয় ছড়ার সেলাই।',
-      artworkId: 4,
-      highlightColor: '#10B981',
-      accentGradient: 'from-[#064E3B] via-[#047857] to-[#022C22]',
-      techniqueTag: '100% Muslin Cotton • Literary Running Stitch',
+      badge: 'Village Life',
+      badgeBengali: 'গ্রামজীবনের রঙ',
+      title: 'Colors of Village Life',
+      titleBengali: 'গ্রামজীবনের রঙিন গল্প',
+      quote:
+        'People, homes, trees, and the surrounding landscape come together in a richly detailed embroidered picture of rural Bengal.',
+      quoteBengali:
+        'মানুষ, ঘরবাড়ি, গাছপালা ও প্রকৃতির মিলনে সুতোর ফোঁড়ে ফুটে উঠেছে গ্রামবাংলার একটি জীবন্ত দৃশ্য।',
+      artworkId: 9,
+      highlightColor: '#B85C38',
+      accentGradient:
+        'from-[#3A2117] via-[#70422D] to-[#21130E]',
+      techniqueTag:
+        'Narrative Hand Embroidery • Detailed Figure Stitching',
     },
+
     {
       id: 4,
-      badge: 'Artisan Figure Study',
-      badgeBengali: 'গ্রাম্য বধূ ও পুষ্পকানন',
-      title: 'The Kalash Maiden in the Meadow',
-      titleBengali: 'কলসী কাঁখে গ্রাম্য বধূ',
-      quote: 'Elaborate starburst lehenga embroidery, silver ghungroo anklets, and earthen pot amidst wildflowers.',
-      quoteBengali: 'মাথায় মাটির কলসী ও তারার মতো জ্বলজ্বলে জরির লেহেঙ্গা পরে মেঠোপথে হেঁটে যাওয়া রূপসী নারী।',
-      artworkId: 5,
-      highlightColor: '#EC4899',
-      accentGradient: 'from-[#4C0519] via-[#831843] to-[#2E020E]',
-      techniqueTag: 'Fine Chain Stitch • French Knots • Starburst Fill',
-    }
+      badge: 'Floral & Nature',
+      badgeBengali: 'ফুল ও প্রকৃতি',
+      title: 'A Garden Woven with Thread',
+      titleBengali: 'সুতোর ফোঁড়ে ফুলের বাগান',
+      quote:
+        'Delicate flowers and leafy stems are carefully stitched across soft fabric, creating a peaceful botanical textile composition.',
+      quoteBengali:
+        'হালকা কাপড়ের উপর নরম রঙের ফুল, পাতা ও লতিকা দিয়ে তৈরি হয়েছে একটি শান্ত ও সুন্দর ছোট্ট ফুলের বাগান।',
+      artworkId: 3,
+      highlightColor: '#A67C52',
+      accentGradient:
+        'from-[#3A3830] via-[#6B6657] to-[#292720]',
+      techniqueTag:
+        'Floral Embroidery • Stem Stitch • Fine Threadwork',
+    },
   ];
 
   // Auto-play timer

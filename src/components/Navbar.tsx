@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowRight, Sparkles } from 'lucide-react';
 import { PageRoute } from '../types';
-import { BrandLogo } from './BrandLogo';
+import { BrandLogo } from './BrandLogoNew';
 
 interface NavbarProps {
   currentPage: PageRoute;

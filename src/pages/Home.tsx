@@ -22,7 +22,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
     <div className="space-y-16 sm:space-y-20 md:space-y-24">
       
       {/* SLIDING HERO BANNER */}
-      <section id="hero-slider-section" className="pt-2 sm:pt-4">
+      <section id="hero-slider-section" className="">
         <HeroSlider 
           onNavigate={onNavigate} 
           onSelectArtwork={onSelectArtwork} 

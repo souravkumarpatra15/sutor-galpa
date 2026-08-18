@@ -3,145 +3,421 @@ import { Artwork } from '../types';
 export const ARTWORKS: Artwork[] = [
   {
     id: 1,
-    title: 'Woman in Flower Boat on Azure Waters',
-    titleBengali: 'নদী ও নৌকার রূপকথা (রিতা ২০২৩/২০২৫)',
-    category: 'Bengali Art',
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=1200&auto=format&fit=crop',
-    description: 'A masterwork hand-stitched on raw tussar silk depicting a graceful Bengali woman in an ornate vermillion orna and bridal jewelry rowing a flower-laden wooden boat (ডিঙি নৌকা) along a rippling blue river against lilac hills and embroidered trees.',
-    descriptionBengali: 'তসর রেশমের উপর নিপুণ সূচিশিল্পে ফুটে উঠেছে রঙিন ফুলে ভরা নৌকার মাঝি গ্রাম্য বধূর অনুপম রূপ। শান্ত নীল নদী ও পাহাড়ি প্রকৃতির গভীর মায়াজাল।',
+    title: 'Little House Under the Starry Sky',
+    titleBengali: 'তারাভরা আকাশের নিচে ছোট্ট ঘর',
+    category: 'Folk Art',
+    image: '/assets/1.jpeg',
+    description:
+      'A charming hand-stitched textile artwork featuring a colorful little house surrounded by trees, flowers and a dreamy star-filled night sky. The bright embroidery creates a warm village-inspired story on dark fabric.',
+    descriptionBengali:
+      'কালো কাপড়ের বুকে রঙিন সুতোর ফোঁড়ে ফুটে উঠেছে ছোট্ট একটি ঘর, গাছপালা, ফুল আর তারাভরা রাতের আকাশ। সরল অথচ মায়াময় গ্রামবাংলার গল্প যেন এই সেলাইয়ের প্রতিটি ফোঁড়ে জীবন্ত হয়ে উঠেছে।',
     featured: true,
-    aspect: 'portrait',
-    technique: 'Nakshi Kantha satin stitch, Long-and-short thread shading & Gold zari contouring',
-    details: ['Raw beige tussar silk backing', 'Authentic signature: RITA 2023 / 2025', 'Multi-ply spun embroidery floss', 'Over 140 hours of hand-stitch work']
+    aspect: 'square',
+    technique: 'Hand embroidery, satin stitch, outline stitch & decorative threadwork',
+    details: [
+      'Hand-stitched textile artwork',
+      'Dark fabric base',
+      'Colorful floral and nature motifs',
+      'Detailed decorative threadwork'
+    ]
   },
+
   {
     id: 2,
-    title: 'Baul with Ektara in the Bengal Meadows',
-    titleBengali: 'একতারা হাতে বাউল সাধক (রিতা ২০২৪)',
-    category: 'Folk Art',
-    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1200&auto=format&fit=crop',
-    description: 'A framed heirloom textile portraying a Bengali Baul mystic singer raising his ektara to the heavens, walking along a winding red mud path between lush green paddy fields, thatched cottages, and a bird on a flowering tree branch.',
-    descriptionBengali: 'বাংলার চিরায়ত মাটির গান ও বাউল সুরের চিত্রায়ন। লাল মেঠোপথ, সবুজ ফসলের মাঠ এবং গাছে বসা দোয়েল পাখির নিখুঁত সুতোর গাঁথুনি।',
+    title: 'Birds, Flowers & Greenery',
+    titleBengali: 'পাখি, ফুল ও সবুজের নকশা',
+    category: 'Floral & Nature',
+    image: '/assets/2.jpeg',
+    description:
+      'A vibrant embroidery composition on dark fabric, filled with delicate flowers, leaves, birds and flowing decorative patterns. The colorful threadwork gives the piece a lively handmade character.',
+    descriptionBengali:
+      'গাঢ় কাপড়ের উপর রঙিন সুতোর কাজে ফুটে উঠেছে ফুল, পাতা ও পাখির মনোরম নকশা। প্রকৃতির নানা উপাদানকে একসঙ্গে মিলিয়ে তৈরি হয়েছে একটি প্রাণবন্ত হস্তশিল্প।',
     featured: true,
-    aspect: 'landscape',
-    technique: 'Traditional running Kantha stitch, Gamcha patchwork embroidery & Frame mounting',
-    details: ['Gold-gilded archival frame (Rita - \'24)', 'Hand-dyed cotton thread palette', 'Pure unbleached khadi base']
+    aspect: 'square',
+    technique: 'Floral embroidery, running stitch, stem stitch & decorative filling',
+    details: [
+      'Hand embroidery',
+      'Floral and bird motifs',
+      'Multi-colored threadwork',
+      'Decorative border detailing'
+    ]
   },
+
   {
     id: 3,
-    title: 'Pather Panchali: Apu & Durga in the Kashbon',
-    titleBengali: 'পথের পাঁচালী: কাশবনে অপু ও দুর্গা (রিতা ২০২৪)',
-    category: 'Heritage & Cinema',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop',
-    description: 'A cinematic tribute to Satyajit Ray’s Pather Panchali on black fabric inside a dark wooden frame. Young Durga and Apu run through white Kash flower fields towards a smoking steam train under starry clouds.',
-    descriptionBengali: 'সত্যজিৎ রায়ের পথের পাঁচালীর অবিস্মরণীয় দৃশ্য—কাশবনের মধ্য দিয়ে রেলগাড়ি দেখার স্বপ্ন নিয়ে ছুটে চলা দুই ভাইবোন অপু ও দুর্গা। কালো কাপড়ে সাদা ও রঙিন সুতোর জাদু।',
+    title: 'Delicate Floral Vine',
+    titleBengali: 'নরম রঙের ফুলেল লতিকা',
+    category: 'Floral & Nature',
+    image: '/assets/3.jpeg',
+    description:
+      'A soft textile embroidery featuring repeated floral stems and leaves in gentle shades. The flowing arrangement creates a calm and elegant botanical pattern across the fabric.',
+    descriptionBengali:
+      'হালকা রঙের কাপড়ের উপর নরম রঙের ফুল ও পাতার লতিকা দিয়ে তৈরি সূক্ষ্ম নকশা। প্রকৃতির শান্ত সৌন্দর্যকে সেলাইয়ের মাধ্যমে ফুটিয়ে তোলা হয়েছে।',
     featured: true,
-    aspect: 'square',
-    technique: 'Contrast silk embroidery on jet-black canvas & Stem stitch',
-    details: ['Midnight black cotton canvas', 'Walnut wood custom framing', 'Silken white floss for Kash flowers']
+    aspect: 'portrait',
+    technique: 'Stem stitch, leaf embroidery & floral threadwork',
+    details: [
+      'Fine fabric embroidery',
+      'Botanical floral pattern',
+      'Soft multi-color palette',
+      'Repeated hand-stitched motifs'
+    ]
   },
+
   {
     id: 4,
-    title: 'Nakshi Kantha Nursery Rhymes & Alphabet Quilt',
-    titleBengali: 'ছড়ার নকশী কাঁথা ও বর্ণপরিচয়',
-    category: 'Textile Art',
-    image: 'https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?q=80&w=1200&auto=format&fit=crop',
-    description: 'Traditional Bengali nursery rhymes stitched by hand: "চাঁদ উঠেছে ফুল ফুটেছে", "কদম তলায় কে? হাতি নাচছে ঘোড়া নাচছে" alongside dancing elephants, rearing horses, crescent moon, and emerald green border trim.',
-    descriptionBengali: 'শৈশবের প্রিয় বাংলা ছড়া ও বর্ণমালার অপূর্ব নকশী কাঁথা। চাঁদ, হাতি, ঘোড়া ও লোকজ মোটিফে সাজানো সবুজ পাড়ের সাদা চাদর।',
+    title: 'Village Woman by the River',
+    titleBengali: 'নদীর ধারে গ্রামবাংলার নারী',
+    category: 'Bengali Art',
+    image: '/assets/4.jpeg',
+    description:
+      'A narrative textile artwork depicting a traditional Bengali village scene with a woman near the river, surrounded by hills, trees and water. The stitched landscape creates the feeling of a peaceful rural journey.',
+    descriptionBengali:
+      'নদী, পাহাড়, গাছপালা আর গ্রামবাংলার এক নারীর উপস্থিতিতে তৈরি হয়েছে একটি মনোমুগ্ধকর দৃশ্যকাহিনি। সুতোর কাজে বাংলার শান্ত গ্রামীণ পরিবেশকে কাপড়ের উপর জীবন্ত করে তোলা হয়েছে।',
     featured: true,
     aspect: 'landscape',
-    technique: 'Bengali literary Kantha running stitch & Multi-thread line art',
-    details: ['100% fine white cotton muslin', 'Emerald green borders', 'Pastel and rainbow cotton threads']
+    technique: 'Narrative embroidery, running stitch & landscape threadwork',
+    details: [
+      'Hand-stitched landscape',
+      'Bengali village-inspired scene',
+      'River and nature motifs',
+      'Detailed figure embroidery'
+    ]
   },
+
   {
     id: 5,
-    title: 'The Kalash Lady & Meadow Wildflowers',
-    titleBengali: 'কলসী কাঁখে গ্রাম্য বধূ ও পুষ্পকানন',
-    category: 'Folk Art',
-    image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901?q=80&w=1200&auto=format&fit=crop',
-    description: 'A full-length traditional woman wearing an embroidered lehenga choli with starburst patterns, silver ghungroo anklets, and carrying an earthen kalash pot amidst blooming wildflowers.',
-    descriptionBengali: 'মাথায় মাটির কলসী আর গায়ে তারার মতো জ্বলজ্বলে জরির লেহেঙ্গা পরে মেঠোপথে হেঁটে যাওয়া রূপসী নারীর পূর্ণাবয়ব সেলাই।',
+    title: 'Blooming Floral Pattern',
+    titleBengali: 'ফুলে ভরা নরম নকশা',
+    category: 'Floral & Nature',
+    image: '/assets/5.jpeg',
+    description:
+      'A close view of delicate floral embroidery arranged across light-colored fabric. Soft petals, stems and leaves create a graceful repeating textile pattern.',
+    descriptionBengali:
+      'হালকা কাপড়ের উপর সারি সারি ফুল, পাতা ও ডালের সূক্ষ্ম সেলাই। নরম রঙের এই ফুলেল নকশা কাপড়টিকে আরও কোমল ও সুন্দর করে তুলেছে।',
     featured: true,
     aspect: 'portrait',
-    technique: 'Fine chain stitch, Starburst fill & French knots',
-    details: ['Soft white fabric tapestry', 'Detailed ghungroo stitchwork', 'Featured in the Studio Video demonstration']
+    technique: 'Floral embroidery, stem stitch & fine thread detailing',
+    details: [
+      'Light fabric base',
+      'Floral repeating pattern',
+      'Fine hand stitching',
+      'Soft pastel-inspired threadwork'
+    ]
   },
+
   {
     id: 6,
-    title: 'Nakshi Kantha Multicolored Butterflies',
-    titleBengali: 'প্রজাপতি মেলা নকশী কাঁথা',
-    category: 'Floral & Nature',
-    image: 'https://images.unsplash.com/photo-1528458876861-544fd1761a91?q=80&w=1200&auto=format&fit=crop',
-    description: 'A pure white cotton bedspread decorated with dozens of fluttering butterflies in cobalt blue, violet, golden yellow, ruby red, and spring green paired with blooming tulip calyxes.',
-    descriptionBengali: 'হরেক রঙের প্রজাপতির মেলা—নীল, লাল, হলুদ ও বেগুনী সুতোর নিপুণ ফোঁড়ে তৈরি টিউলিপ ফুল ও প্রজাপতি মোটিফ।',
-    featured: false,
+    title: 'Village Story in Embroidery',
+    titleBengali: 'সেলাইয়ের ফোঁড়ে গ্রামের গল্প',
+    category: 'Folk Art',
+    image: '/assets/6.jpeg',
+    description:
+      'A framed textile artwork illustrating a colorful village-inspired scene. Buildings, trees, figures and decorative elements come together to create a storybook-like composition.',
+    descriptionBengali:
+      'ফ্রেমে বাঁধানো এই সূচিশিল্পে গড়ে উঠেছে একটি সম্পূর্ণ গ্রামের গল্প। ঘরবাড়ি, গাছপালা ও মানুষের উপস্থিতি মিলিয়ে তৈরি হয়েছে গল্পের বইয়ের মতো একটি দৃশ্য।',
+    featured: true,
     aspect: 'landscape',
-    technique: 'Traditional dense Kantha running stitch',
-    details: ['Pure handloom cotton bedsheet', 'Washable non-bleed silk-cotton threads']
+    technique: 'Narrative hand embroidery & fine outline stitching',
+    details: [
+      'Framed textile artwork',
+      'Village scene composition',
+      'Fine colorful threadwork',
+      'Decorative landscape details'
+    ]
   },
+
   {
     id: 7,
-    title: 'Village Twilight & Thatched Cottages',
-    titleBengali: 'গ্রামের শান্ত সন্ধ্যা ও কুঁড়েঘর',
-    category: 'Folk Art',
-    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=1200&auto=format&fit=crop',
-    description: 'A framed dark fabric embroidery showing a village woman with her earthen pitcher returning along a pondside path beside cozy thatched cottages and coconut groves beneath starry skies.',
-    descriptionBengali: 'মাটির ঘর, নারকেল গাছের সারি ও সন্ধ্যা নামা মেঠোপথের দৃশ্য কালো কাপড়ে রঙিন সুতোর ফোঁড়ে বাঁধানো চিত্রকর্ম।',
-    featured: false,
-    aspect: 'landscape',
-    technique: 'Contrasting stitchwork & Walnut frame mounting',
-    details: ['Custom archival frame', 'Loomed black fabric', 'Multi-hued green and golden threads']
+    title: 'A Story Framed in Thread',
+    titleBengali: 'ফ্রেমে বাঁধানো সুতোর গল্প',
+    category: 'Bengali Art',
+    image: '/assets/7.jpeg',
+    description:
+      'A carefully framed embroidered scene where colorful figures, nature and surroundings are built entirely through detailed needlework.',
+    descriptionBengali:
+      'রঙিন সুতোর সূক্ষ্ম কাজে তৈরি একটি সম্পূর্ণ দৃশ্যচিত্র। ফ্রেমের মধ্যে মানুষের জীবন ও প্রকৃতির নানা উপাদান মিলিয়ে তৈরি হয়েছে এক অনন্য সেলাইয়ের গল্প।',
+    featured: true,
+    aspect: 'square',
+    technique: 'Fine hand embroidery & narrative stitchwork',
+    details: [
+      'Hand-embroidered artwork',
+      'Traditional framed presentation',
+      'Detailed figures and scenery',
+      'Layered colorful threadwork'
+    ]
   },
+
   {
     id: 8,
-    title: 'Whimsical Birdhouse & Sunshine Mat',
-    titleBengali: 'উড়ন্ত মৌমাছি ও পাখি-বাড়ি',
-    category: 'Stitch Art',
-    image: 'https://images.unsplash.com/photo-1617042375876-a13e36732a04?q=80&w=1200&auto=format&fit=crop',
-    description: 'A square black silk mat finished with vibrant turquoise border piping, featuring a sunny yellow cottage, buzzing bumblebee, climbing floral vines, and radiant sun.',
-    descriptionBengali: 'নীল পাড়ে মোড়া কালো রেশমী কাপড়ে হলুদ বাড়ি, উড়ন্ত মৌমাছি ও ফুলের লতার রঙিন নকশা।',
-    featured: false,
-    aspect: 'square',
-    technique: 'Satin stitch & Silk ribbon border finish',
-    details: ['Turquoise silk edge piping', 'Signed by artisan Rita', 'Square table accent']
-  },
-  {
-    id: 9,
-    title: 'Joy on the Golden Tree Swing',
-    titleBengali: 'ডালে দোলা ও রঙিন পাতা',
-    category: 'Stitch Art',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1200&auto=format&fit=crop',
-    description: 'Two joyful children swinging upside down on a golden branch adorned with rainbow leaves and hanging buds, bound with a hot pink silk border.',
-    descriptionBengali: 'গাছের ডালে ঝুলন্ত শিশুদের হাসিখুশি মুহূর্ত আর রঙিন পাতার সমাহার। মিষ্টি গোলাপি পাড়ে বাঁধানো।',
-    featured: false,
-    aspect: 'square',
-    technique: 'Stem stitch & Feathered leaf embroidery',
-    details: ['Pink silk ribbon border', 'Black base fabric', 'Decorative centerpiece']
-  },
-  {
-    id: 10,
-    title: 'Royal Kalka & Paisley Border Tapestry',
-    titleBengali: 'নীল ও বেগুনী কলকা পাড়',
-    category: 'Textile Art',
-    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop',
-    description: 'Elaborate traditional royal Bengali Paisley (কলকা) motifs hand-embroidered in gradient royal blue, magenta, and purple threads along white cotton drapery.',
-    descriptionBengali: 'বাংলার ঐতিহ্যবাহী রাজকীয় কলকা ও লতাপাতার সূক্ষ্ম নকশা—নীল ও জামরঙা সুতোর গভীর বন্ধন।',
+    title: 'Pastel Flower Garden',
+    titleBengali: 'প্যাস্টেল রঙের ফুলবাগান',
+    category: 'Floral & Nature',
+    image: '/assets/8.jpeg',
+    description:
+      'A delicate floral textile featuring clusters of soft-colored flowers and leaves. The subtle palette gives the handmade piece a peaceful and elegant appearance.',
+    descriptionBengali:
+      'হালকা নীল, গোলাপি, হলুদ ও সবুজের কোমল রঙে তৈরি ফুল ও পাতার নকশা। সাদামাটা কাপড়ের উপর এই ফুলেল সেলাই যেন ছোট্ট একটি শান্ত বাগান।',
     featured: false,
     aspect: 'landscape',
-    technique: 'Kalka outline embroidery & Fine satin fill',
-    details: ['Pure white cotton drapery', 'Grand border orientation']
+    technique: 'Floral embroidery, satin stitch & leaf detailing',
+    details: [
+      'Soft floral composition',
+      'Pastel-inspired thread colors',
+      'Hand-stitched flowers',
+      'Natural leaf motifs'
+    ]
   },
+
+  {
+    id: 9,
+    title: 'Village Life in a Wooden Frame',
+    titleBengali: 'কাঠের ফ্রেমে গ্রামবাংলার জীবন',
+    category: 'Folk Art',
+    image: '/assets/9.jpeg',
+    description:
+      'A framed embroidered artwork capturing a colorful rural scene with people, buildings and landscape details. The composition feels like a small window into everyday village life.',
+    descriptionBengali:
+      'কাঠের ফ্রেমের মধ্যে সেলাইয়ের ফোঁড়ে ফুটে উঠেছে গ্রামবাংলার মানুষের জীবন ও চারপাশের পরিবেশ। ছোট্ট একটি ছবির মধ্যে যেন লুকিয়ে আছে বড় একটি গল্প।',
+    featured: true,
+    aspect: 'landscape',
+    technique: 'Narrative embroidery & detailed figure stitching',
+    details: [
+      'Wood-framed textile artwork',
+      'Rural life theme',
+      'Detailed scene composition',
+      'Colorful hand embroidery'
+    ]
+  },
+
+  {
+    id: 10,
+    title: 'Colors of Village Life',
+    titleBengali: 'গ্রামজীবনের রঙিন গল্প',
+    category: 'Bengali Art',
+    image: '/assets/10.jpeg',
+    description:
+      'A richly detailed framed embroidery portraying a colorful rural setting. People, homes and the surrounding landscape are carefully represented through layered threadwork.',
+    descriptionBengali:
+      'রঙিন সুতোর স্তরে স্তরে তৈরি হয়েছে গ্রামবাংলার একটি জীবন্ত দৃশ্য। মানুষ, ঘরবাড়ি ও প্রকৃতির মিলনে তৈরি এই কাজটি একটি সম্পূর্ণ গল্পের মতো মনে হয়।',
+    featured: true,
+    aspect: 'landscape',
+    technique: 'Narrative hand embroidery & layered threadwork',
+    details: [
+      'Framed textile artwork',
+      'Village-inspired composition',
+      'Layered colorful stitches',
+      'Detailed environmental motifs'
+    ]
+  },
+
   {
     id: 11,
-    title: 'Climbing Floral Vines & Rainbow Buds',
-    titleBengali: 'রঙিন লতিকা ও কুঁড়ির মেলবন্ধন',
+    title: 'Flowers on White Fabric',
+    titleBengali: 'সাদা কাপড়ে ফুলের নকশা',
     category: 'Floral & Nature',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=1200&auto=format&fit=crop',
-    description: 'Parallel cascading floral creepers with gradient green leaves and buds hand-stitched in shades of rose, sky blue, sunflower yellow, and emerald.',
-    descriptionBengali: 'লতানো ডালপালা আর রঙিন ফুলের কুঁড়ির অনবদ্য সেলাই—প্রকৃতির রূপ যখন কাপড়ের বুকে জীবন্ত হয়।',
+    image: '/assets/11.jpeg',
+    description:
+      'A graceful floral embroidery pattern featuring soft flowers and green stems across a light fabric surface.',
+    descriptionBengali:
+      'সাদা কাপড়ের উপর নরম রঙের ফুল ও সবুজ ডালের সূক্ষ্ম সেলাই। সরলতার মধ্যেই এই কাজটির সৌন্দর্য লুকিয়ে আছে।',
     featured: false,
     aspect: 'portrait',
-    technique: 'Stem stitch & Layered gradient leaf fill',
-    details: ['Fine weave cotton cloth', 'Graduated color threading']
+    technique: 'Floral embroidery & stem stitch',
+    details: [
+      'Light textile base',
+      'Floral motifs',
+      'Fine stem detailing',
+      'Soft color combination'
+    ]
+  },
+
+  {
+    id: 12,
+    title: 'Elegant Floral Embroidery',
+    titleBengali: 'সুন্দর ফুলেল সূচিশিল্প',
+    category: 'Floral & Nature',
+    image: '/assets/12.jpeg',
+    description:
+      'A close textile detail showing hand-stitched flowers arranged along flowing stems on a light fabric.',
+    descriptionBengali:
+      'হালকা কাপড়ের উপর ফুল ও লতানো ডালের সূক্ষ্ম সেলাই। কাছ থেকে দেখলে প্রতিটি ফোঁড়ের পরিশ্রম ও সৌন্দর্য আরও স্পষ্ট হয়ে ওঠে।',
+    featured: false,
+    aspect: 'portrait',
+    technique: 'Fine floral embroidery & decorative stitching',
+    details: [
+      'Detailed floral motifs',
+      'Hand-stitched stems',
+      'Light fabric',
+      'Decorative threadwork'
+    ]
+  },
+
+  {
+    id: 13,
+    title: 'Floral Border Embroidery',
+    titleBengali: 'ফুলেল পাড়ের সূচিকর্ম',
+    category: 'Textile Art',
+    image: '/assets/13.jpeg',
+    description:
+      'A delicate embroidered textile featuring a decorative floral border along the edge of light-colored fabric.',
+    descriptionBengali:
+      'হালকা কাপড়ের প্রান্তজুড়ে ফুল ও পাতার নকশায় তৈরি হয়েছে একটি সুন্দর সূচিকর্মের পাড়।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Border embroidery, stem stitch & floral detailing',
+    details: [
+      'Decorative textile border',
+      'Floral edge pattern',
+      'Fine hand stitching',
+      'Light fabric foundation'
+    ]
+  },
+
+  {
+    id: 14,
+    title: 'Corner Floral Detail',
+    titleBengali: 'কোণজুড়ে ফুলের নকশা',
+    category: 'Textile Art',
+    image: '/assets/14.jpeg',
+    description:
+      'A close-up view of carefully stitched floral and leafy motifs arranged along the corner of a textile.',
+    descriptionBengali:
+      'কাপড়ের কোণজুড়ে ফুল, পাতা ও ডালের সূক্ষ্ম নকশা। ছোট জায়গার মধ্যেও সুন্দরভাবে সাজানো হয়েছে প্রতিটি সেলাই।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Fine floral embroidery & corner motif stitching',
+    details: [
+      'Corner textile design',
+      'Floral and leaf motifs',
+      'Detailed hand embroidery',
+      'Decorative composition'
+    ]
+  },
+
+  {
+    id: 16,
+    title: 'Decorative Embroidered Border',
+    titleBengali: 'রঙিন সূচিকর্মের পাড়',
+    category: 'Textile Art',
+    image: '/assets/16.jpeg',
+    description:
+      'A vertical textile detail decorated with a flowing embroidered border of colorful floral and ornamental motifs.',
+    descriptionBengali:
+      'লম্বা কাপড়ের উপর রঙিন ফুল ও অলংকারধর্মী মোটিফ দিয়ে তৈরি হয়েছে সুন্দর একটি সূচিকর্মের পাড়।',
+    featured: false,
+    aspect: 'portrait',
+    technique: 'Border embroidery, running stitch & decorative motifs',
+    details: [
+      'Vertical embroidered border',
+      'Colorful threadwork',
+      'Floral ornamental motifs',
+      'Fine textile detailing'
+    ]
+  },
+
+  {
+    id: 17,
+    title: 'Hand-Stitched Floral Border',
+    titleBengali: 'হাতে সেলাই করা ফুলেল পাড়',
+    category: 'Textile Art',
+    image: '/assets/17.jpeg',
+    description:
+      'A detailed vertical embroidery piece showing a colorful decorative border with flowers, leaves and ornamental elements.',
+    descriptionBengali:
+      'ফুল, পাতা ও নানা অলংকারধর্মী মোটিফের সমন্বয়ে তৈরি একটি দীর্ঘ ফুলেল পাড়। প্রতিটি অংশ হাতে সেলাই করে সাজানো হয়েছে।',
+    featured: false,
+    aspect: 'portrait',
+    technique: 'Hand embroidery, outline stitch & decorative filling',
+    details: [
+      'Hand-stitched border',
+      'Floral and ornamental motifs',
+      'Vertical textile composition',
+      'Multi-colored embroidery threads'
+    ]
+  },
+
+  {
+    id: 18,
+    title: 'Embroidery Design in Progress',
+    titleBengali: 'সেলাইয়ের নকশা তৈরির মুহূর্ত',
+    category: 'Behind the Stitch',
+    image: '/assets/18.jpeg',
+    description:
+      'A textile design showing the planning and pattern work behind a handmade embroidery piece. The visible lines and motifs reveal the beginning of the creative process.',
+    descriptionBengali:
+      'হাতে তৈরি সূচিশিল্পের আগে কাপড়ের উপর নকশা তৈরির একটি গুরুত্বপূর্ণ ধাপ। রেখা ও মোটিফের মাধ্যমে ধীরে ধীরে গড়ে ওঠে সম্পূর্ণ কাজটি।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Textile pattern drawing & embroidery preparation',
+    details: [
+      'Embroidery preparation stage',
+      'Hand-planned textile design',
+      'Visible pattern work',
+      'Foundation for hand stitching'
+    ]
+  },
+
+  {
+    id: 19,
+    title: 'Hand-Drawn Textile Pattern',
+    titleBengali: 'কাপড়ের উপর হাতে আঁকা নকশা',
+    category: 'Behind the Stitch',
+    image: '/assets/19.jpeg',
+    description:
+      'A close view of a textile surface prepared with hand-drawn design elements before the detailed embroidery begins.',
+    descriptionBengali:
+      'সূচিকর্ম শুরু হওয়ার আগে কাপড়ের উপর হাতে তৈরি নকশার একটি দৃশ্য। এই প্রস্তুতিই পরবর্তী সেলাইয়ের ভিত্তি তৈরি করে।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Hand-drawn pattern preparation',
+    details: [
+      'Pre-embroidery design',
+      'Hand-drawn textile pattern',
+      'Detailed planning stage',
+      'Traditional craft process'
+    ]
+  },
+
+  {
+    id: 20,
+    title: 'Traditional Embroidery Pattern',
+    titleBengali: 'ঐতিহ্যবাহী সূচিকর্মের নকশা',
+    category: 'Behind the Stitch',
+    image: '/assets/20.jpeg',
+    description:
+      'A detailed textile preparation showing the underlying pattern used to guide the hand embroidery.',
+    descriptionBengali:
+      'হাতে সেলাই করার জন্য কাপড়ের উপর তৈরি করা নকশার সূক্ষ্ম বিবরণ। প্রতিটি রেখা পরবর্তী সূচিকর্মের পথ নির্দেশ করে।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Pattern drawing & traditional embroidery preparation',
+    details: [
+      'Embroidery guide pattern',
+      'Textile preparation',
+      'Hand-drawn details',
+      'Traditional craft process'
+    ]
+  },
+
+  {
+    id: 21,
+    title: 'Embroidery Work on Fine Fabric',
+    titleBengali: 'কাপড়ের উপর সূচিকর্মের কাজ',
+    category: 'Textile Art',
+    image: '/assets/21.jpeg',
+    description:
+      'A textile piece showing delicate embroidery work and decorative motifs arranged across a light fabric surface.',
+    descriptionBengali:
+      'হালকা কাপড়ের উপর সূক্ষ্ম সেলাই ও আলংকারিক মোটিফের কাজ। কাপড়ের সৌন্দর্যের সঙ্গে সুতোর নকশা মিলিয়ে তৈরি হয়েছে একটি কোমল হস্তশিল্প।',
+    featured: false,
+    aspect: 'landscape',
+    technique: 'Fine hand embroidery & decorative textile stitching',
+    details: [
+      'Fine fabric embroidery',
+      'Decorative stitched motifs',
+      'Handcrafted textile',
+      'Detailed needlework'
+    ]
   }
 ];
