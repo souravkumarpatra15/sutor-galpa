@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-bengali-serif: "Noto Serif Bengali", serif;
+  --font-bengali-sans: "Noto Sans Bengali", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-primary-green: #174D38;
+  --color-deep-green: #0F3829;
+  --color-warm-cream: #F8F3E8;
+  --color-soft-ivory: #FFFDF7;
+  --color-terracotta: #B85C38;
+  --color-traditional-red: #A83232;
+  --color-muted-gold: #C9A45C;
+  --color-dark-charcoal: #292621;
+  --color-light-border: #E6DCC9;
+}
+
+/* Custom Embroidery Stitch Utilities */
+.stitched-border {
+  border: 2px dashed #C9A45C;
+  box-shadow: 0 0 0 4px #F8F3E8, 0 0 0 5px #E6DCC9;
+}
+
+.stitched-border-subtle {
+  border: 1.5px dashed #C9A45C;
+}
+
+.stitched-border-white {
+  border: 2px dashed rgba(201, 164, 92, 0.6);
+  box-shadow: 0 0 0 4px rgba(15, 56, 41, 0.4);
+}
+
+.stitched-line {
+  background-image: linear-gradient(to right, #B85C38 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 12px 2px;
+  background-repeat: repeat-x;
+}
+
+.kantha-dash-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #C9A45C;
+  font-family: monospace;
+  letter-spacing: 0.25em;
+}
+
+/* Subtle handcraft texture */
+.fabric-texture {
+  background-color: #FFFDF7;
+  background-image: radial-gradient(#E6DCC9 0.75px, transparent 0.75px), radial-gradient(#E6DCC9 0.75px, #FFFDF7 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.linen-texture {
+  background-color: #F8F3E8;
+  background-image: 
+    linear-gradient(90deg, rgba(230, 220, 201, 0.4) 1px, transparent 0),
+    linear-gradient(180deg, rgba(230, 220, 201, 0.4) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.dark-linen-texture {
+  background-color: #0F3829;
+  background-image: 
+    linear-gradient(90deg, rgba(23, 77, 56, 0.6) 1px, transparent 0),
+    linear-gradient(180deg, rgba(23, 77, 56, 0.6) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F3E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A45C;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B85C38;
+}

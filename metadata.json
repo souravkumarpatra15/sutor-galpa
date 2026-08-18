@@ -1,0 +1,6 @@
+{
+  "name": "সুতোয় গল্প | Stories in Every Stitch",
+  "description": "Handmade Bengali embroidery and textile artwork portfolio celebrating the timeless art of stitching stories into fabric.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
