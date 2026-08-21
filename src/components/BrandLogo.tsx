@@ -37,7 +37,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="overflow-visible"
-        aria-label="সুতোয় গল্প - Stories in Every Stitch Logo"
+        aria-label="Sutoy Galpo - Stories in Every Stitch Logo"
       >
         <defs>
           {/* Subtle wood gradient for hoop */}
@@ -122,37 +122,37 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
 
         {/* 3. BENGALI CALLIGRAPHY INSIDE HOOP */}
         <g id="bengali-typography">
-          {/* "সুতোয়" in Deep Emerald Green */}
+          {/* "Sutoy" in Deep Emerald Green */}
           <text
             x="48"
             y="52"
-            fontFamily="'Noto Serif Bengali', 'Hind Siliguri', serif"
+            fontFamily="'Playfair Display', Georgia, serif"
             fontSize="32"
             fontWeight="800"
             fill={textColorGreen}
             letterSpacing="-0.5"
             style={{ textShadow: '0 0.5px 1px rgba(0,0,0,0.05)' }}
           >
-            সুতোয়
+            Sutoy
           </text>
 
-          {/* "গল্প" in Rich Vermillion Crimson */}
+          {/* "Galpo" in Rich Vermillion Crimson */}
           <text
             x="58"
             y="80"
-            fontFamily="'Noto Serif Bengali', 'Hind Siliguri', serif"
+            fontFamily="'Playfair Display', Georgia, serif"
             fontSize="34"
             fontWeight="900"
             fill={textColorRed}
             letterSpacing="-0.5"
           >
-            গল্প
+            Galpo
           </text>
         </g>
 
         {/* 4. GOLDEN NEEDLE & FLOWING HEART THREAD */}
         <g id="needle-and-thread">
-          {/* Thread looping underneath 'সুতোয়' & 'গল্প' */}
+          {/* Thread looping underneath 'Sutoy' & 'Galpo' */}
           <path
             d="M 52 64 C 44 78, 60 92, 85 92 C 108 92, 118 78, 122 66 C 124 58, 134 54, 138 68 C 142 80, 134 94, 144 94 C 148 94, 150 90, 148 84"
             fill="none"
@@ -210,7 +210,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
               fill={textColorGreen}
               letterSpacing="0.5"
             >
-              সুতোয় গল্প
+              Sutoy Galpo
             </text>
 
             <text

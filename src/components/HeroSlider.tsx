@@ -12,11 +12,8 @@ interface HeroSliderProps {
 interface SlideItem {
   id: number;
   badge: string;
-  badgeBengali: string;
   title: string;
-  titleBengali: string;
   quote: string;
-  quoteBengali: string;
   artworkId: number;
   highlightColor: string;
   accentGradient: string;
@@ -36,13 +33,9 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
     {
       id: 0,
       badge: 'Folk Art',
-      badgeBengali: 'লোকশিল্প',
       title: 'A Little House Full of Stories',
-      titleBengali: 'তারাভরা আকাশের নিচে ছোট্ট ঘর',
       quote:
         'A charming hand-stitched artwork where a little house, trees, flowers, and a starry sky come together in a colorful village-inspired story.',
-      quoteBengali:
-        'কালো কাপড়ের বুকে রঙিন সুতোর ফোঁড়ে ছোট্ট ঘর, গাছপালা, ফুল আর তারাভরা রাতের আকাশ—একটি মায়াময় গ্রামের গল্প।',
       artworkId: 1,
       highlightColor: '#C9A45C',
       accentGradient:
@@ -54,13 +47,9 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
     {
       id: 1,
       badge: 'Bengali Village Story',
-      badgeBengali: 'গ্রামবাংলার গল্প',
       title: 'A Village Story in Every Stitch',
-      titleBengali: 'সেলাইয়ের ফোঁড়ে গ্রামের গল্প',
       quote:
         'A narrative textile artwork bringing together a Bengali village scene, nature, people, and everyday life through colorful hand embroidery.',
-      quoteBengali:
-        'মানুষ, প্রকৃতি ও গ্রামজীবনের নানা দৃশ্যকে রঙিন সুতোর ফোঁড়ে একসঙ্গে বুনে তৈরি হয়েছে একটি সম্পূর্ণ গল্প।',
       artworkId: 4,
       highlightColor: '#D97706',
       accentGradient:
@@ -72,13 +61,9 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
     {
       id: 2,
       badge: 'Framed Textile Art',
-      badgeBengali: 'ফ্রেমে বাঁধানো শিল্প',
       title: 'A Story Framed in Thread',
-      titleBengali: 'ফ্রেমে বাঁধানো সুতোর গল্প',
       quote:
         'A carefully framed embroidered scene where colorful figures, nature, and surroundings are created entirely through detailed needlework.',
-      quoteBengali:
-        'রঙিন সুতোর সূক্ষ্ম কাজে মানুষ, প্রকৃতি ও চারপাশের জীবনকে ফ্রেমের মধ্যে একটি সম্পূর্ণ গল্পে রূপ দেওয়া হয়েছে।',
       artworkId: 6,
       highlightColor: '#C9A45C',
       accentGradient:
@@ -90,13 +75,9 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
     {
       id: 3,
       badge: 'Village Life',
-      badgeBengali: 'গ্রামজীবনের রঙ',
       title: 'Colors of Village Life',
-      titleBengali: 'গ্রামজীবনের রঙিন গল্প',
       quote:
         'People, homes, trees, and the surrounding landscape come together in a richly detailed embroidered picture of rural Bengal.',
-      quoteBengali:
-        'মানুষ, ঘরবাড়ি, গাছপালা ও প্রকৃতির মিলনে সুতোর ফোঁড়ে ফুটে উঠেছে গ্রামবাংলার একটি জীবন্ত দৃশ্য।',
       artworkId: 9,
       highlightColor: '#B85C38',
       accentGradient:
@@ -108,13 +89,9 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
     {
       id: 4,
       badge: 'Floral & Nature',
-      badgeBengali: 'ফুল ও প্রকৃতি',
       title: 'A Garden Woven with Thread',
-      titleBengali: 'সুতোর ফোঁড়ে ফুলের বাগান',
       quote:
         'Delicate flowers and leafy stems are carefully stitched across soft fabric, creating a peaceful botanical textile composition.',
-      quoteBengali:
-        'হালকা কাপড়ের উপর নরম রঙের ফুল, পাতা ও লতিকা দিয়ে তৈরি হয়েছে একটি শান্ত ও সুন্দর ছোট্ট ফুলের বাগান।',
       artworkId: 3,
       highlightColor: '#A67C52',
       accentGradient:
@@ -220,8 +197,6 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 backdrop-blur-md border border-[#C9A45C]/50 text-[#FCE7B8] text-xs font-semibold uppercase tracking-[0.2em]">
                   <Sparkles className="w-3.5 h-3.5 text-[#C9A45C]" />
                   <span>{currentSlideData.badge}</span>
-                  <span className="text-[#C9A45C]">•</span>
-                  <span className="font-serif tracking-normal text-xs text-[#FFFDF7]">{currentSlideData.badgeBengali}</span>
                 </div>
 
                 <div className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/30 backdrop-blur-sm border border-white/10 text-white/80 text-xs font-mono">
@@ -235,19 +210,12 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-[#FFFDF7] tracking-tight leading-[1.15] transition-all duration-300">
                   {currentSlideData.title}
                 </h1>
-
-                <p className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#FCD34D] leading-relaxed drop-shadow-md">
-                  {currentSlideData.titleBengali}
-                </p>
               </div>
 
               {/* Quote / Description */}
               <div className="space-y-1 max-w-xl mx-auto lg:mx-0">
                 <p className="text-base sm:text-lg text-[#F8F3E8]/90 font-sans leading-relaxed">
                   {currentSlideData.quote}
-                </p>
-                <p className="text-sm sm:text-base text-[#D4AF37] font-serif italic">
-                  "{currentSlideData.quoteBengali}"
                 </p>
               </div>
 
@@ -306,9 +274,6 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
                       <h4 className="text-base sm:text-lg font-serif font-bold text-white leading-tight">
                         {matchedArtwork.title}
                       </h4>
-                      <p className="text-xs text-[#FCD34D] font-serif font-medium">
-                        {matchedArtwork.titleBengali}
-                      </p>
                     </div>
 
                     {/* Inspect Badge on top-right */}
@@ -392,7 +357,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onSelectArtw
                 >
                   <span className={`w-2 h-2 rounded-full ${isActive ? 'bg-[#0F3829]' : 'bg-white/40'}`} />
                   <span className="hidden md:inline font-serif truncate max-w-[100px]">
-                    {slide.titleBengali.split(':')[0]}
+                    {slide.title.split(':')[0]}
                   </span>
                 </button>
               );

@@ -21,28 +21,24 @@ export const VideoReelSection: React.FC<VideoReelSectionProps> = ({ onOpenCustom
       id: 0,
       time: '0:00 - 0:06',
       title: 'Unfurling the Tapestry',
-      titleBengali: 'নকশী কাঁথার বিস্তার',
       desc: 'Displaying the expansive white cotton textile showcasing full-length traditional hand-embroidered figure and meadow motifs.',
     },
     {
       id: 1,
       time: '0:07 - 0:14',
       title: 'The Kalash Bearer Detail',
-      titleBengali: 'কলসী কাঁখে গ্রাম্য বধূ',
       desc: 'Meticulous running and satin stitches detailing the silver anklets, lehenga stars, and earthen kalash pot.',
     },
     {
       id: 2,
       time: '0:15 - 0:21',
       title: 'Vibrant Floral Meadow',
-      titleBengali: 'রঙিন ফুলের বুনন',
       desc: 'Layered chain stitches and stem embroidery forming wildflowers, leaves, and sacred border patterns in pure cotton thread.',
     },
     {
       id: 3,
       time: '0:22 - 0:28',
       title: 'Artisan Signature & Mastery',
-      titleBengali: 'শিল্পীর পরম নিষ্ঠা ও শ্রম',
       desc: 'Over 120+ hours of patient needlework preserving Bengal’s heirloom textile legacy for modern collectors.',
     },
   ];
@@ -240,7 +236,7 @@ export const VideoReelSection: React.FC<VideoReelSectionProps> = ({ onOpenCustom
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#174D38]/10 text-[#0F3829] text-xs font-semibold uppercase tracking-wider mb-3">
             <Film className="w-4 h-4 text-[#B85C38]" />
-            <span>Artisan Studio Video • হাতে বোনার মুহূর্ত</span>
+            <span>Artisan Studio Video • Woven by Hand</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-[#174D38] tracking-tight mb-4">
@@ -408,9 +404,6 @@ export const VideoReelSection: React.FC<VideoReelSectionProps> = ({ onOpenCustom
                       <div className="flex items-center justify-between mb-1">
                         <span className={`text-xs font-mono font-semibold ${isCurrent ? 'text-[#B85C38]' : 'text-[#8A7D6B]'}`}>
                           {chapter.time}
-                        </span>
-                        <span className="text-[11px] font-serif text-[#174D38] font-medium">
-                          {chapter.titleBengali}
                         </span>
                       </div>
 

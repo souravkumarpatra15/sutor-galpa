@@ -19,7 +19,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
     <div className="flex items-center">
       <img
         src="/assets/logo.png"
-        alt="সুতোয় গল্প — Stories in Every Stitch"
+        alt="Sutoy Galpo — Stories in Every Stitch"
         className={`${sizeClasses[size]} w-auto object-contain`}
       />
     </div>

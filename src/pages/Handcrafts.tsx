@@ -40,9 +40,7 @@ export const Handcrafts: React.FC<HandcraftsProps> = ({ onNavigate, onSelectArtw
       <section id="handcrafts-hero" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader
           badge="Handmade Gallery"
-          badgeBengali="হস্তশিল্প সংগ্রহশালা"
           title="Every Stitch Has a Story"
-          titleBengali="প্রতিটি সেলাইয়ে লুকিয়ে আছে একটি গল্প"
           description="Explore the complete archive of Rita's original handmade artworks—from folk Baul singers, Pather Panchali cinema homages, and rhyme quilts to riverboat tapestries and vibrant Nakshi Kantha motifs."
           icon="palette"
         />

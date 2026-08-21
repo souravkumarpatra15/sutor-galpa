@@ -24,11 +24,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems: { id: PageRoute; label: string; labelBengali: string }[] = [
-    { id: 'home', label: 'Home', labelBengali: 'নীড়পাতা' },
-    { id: 'handcrafts', label: 'Handcrafts', labelBengali: 'হস্তশিল্প' },
-    { id: 'about', label: 'About Me', labelBengali: 'আমার কথা' },
-    { id: 'contact', label: 'Contact', labelBengali: 'যোগাযোগ' },
+  const navItems: { id: PageRoute; label: string }[] = [
+    { id: 'home', label: 'Home' },
+    { id: 'handcrafts', label: 'Handcrafts' },
+    { id: 'about', label: 'About Me' },
+    { id: 'contact', label: 'Contact' },
   ];
 
   const handleNavClick = (page: PageRoute) => {
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             id="nav-logo-btn"
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 text-left group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#174D38] rounded-lg p-1 transition-transform hover:scale-102"
-            aria-label="সুতোয় গল্প Home"
+            aria-label="Sutoy Galpo Home"
           >
             <BrandLogo size="md" showSubtitle={true} />
           </button>
@@ -76,13 +76,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                 >
                   <span className="relative z-10 block font-serif tracking-wide text-base">
                     {item.label}
-                  </span>
-                  
-                  {/* Subtle Bengali Subtitle on hover / active */}
-                  <span className={`block text-[10px] transition-opacity duration-200 font-medium ${
-                    isActive ? 'text-[#B85C38] opacity-100' : 'text-[#8A7D6B] opacity-0 group-hover:opacity-100'
-                  }`}>
-                    {item.labelBengali}
                   </span>
 
                   {/* Active Indicator Underline */}
@@ -149,7 +142,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                 >
                   <div>
                     <div className="font-serif text-lg">{item.label}</div>
-                    <div className="text-xs text-[#B85C38]">{item.labelBengali}</div>
                   </div>
                   {isActive && <Sparkles className="w-4 h-4 text-[#C9A45C]" />}
                 </button>

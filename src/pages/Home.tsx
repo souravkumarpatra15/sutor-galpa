@@ -44,10 +44,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
               A Little About the Artist
             </h2>
 
-            <p className="text-xl sm:text-2xl font-serif text-[#174D38]">
-              সুতোয় সৃষ্টির এক ছোট্ট জগৎ
-            </p>
-
             <StitchDivider variant="dots" />
 
             <blockquote className="text-base sm:text-lg text-[#292621]/90 leading-relaxed font-sans max-w-2xl mx-auto">
@@ -76,7 +72,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
         <SectionHeading
           label="Handmade Collection"
           title="Featured Creations"
-          bengaliTitle="নির্বাচিত কিছু সৃষ্টি"
           subtitle="A glimpse into a world created stitch by stitch."
         />
 
@@ -116,7 +111,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
           <SectionHeading
             label="The Craft"
             title="Why Her Work Is Special"
-            bengaliTitle="যে কারণে প্রতিটি কাজ অনন্য"
             subtitle="The quiet artistry and dedication woven into every creation."
           />
 
@@ -135,10 +129,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
                 <h3 className="text-xl font-serif font-semibold text-[#0F3829]">
                   Hand Stitched
                 </h3>
-                <p className="text-sm font-medium text-[#174D38] font-serif">
-                  সম্পূর্ণ হাতে সেলাই
-                </p>
-
                 <p className="text-sm text-[#5C5449] leading-relaxed font-sans">
                   Every design is carefully created by hand without machine shortcuts, keeping authentic traditional craftsmanship alive.
                 </p>
@@ -162,10 +152,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
                 <h3 className="text-xl font-serif font-semibold text-[#0F3829]">
                   Made With Love
                 </h3>
-                <p className="text-sm font-medium text-[#174D38] font-serif">
-                  যত্ন আর অনুরাগে তৈরি
-                </p>
-
                 <p className="text-sm text-[#5C5449] leading-relaxed font-sans">
                   Each piece reflects hours of time, genuine patience, and deeply personal creativity invested in every single loop.
                 </p>
@@ -189,10 +175,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onSelectArtwork }) => {
                 <h3 className="text-xl font-serif font-semibold text-[#0F3829]">
                   One of a Kind
                 </h3>
-                <p className="text-sm font-medium text-[#174D38] font-serif">
-                  অনন্য এবং একক
-                </p>
-
                 <p className="text-sm text-[#5C5449] leading-relaxed font-sans">
                   Handmade artwork carries the distinct character, human touch, and story of its maker that can never be mass-duplicated.
                 </p>

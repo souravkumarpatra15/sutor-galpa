@@ -134,11 +134,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
               <h3 className="text-2xl sm:text-3xl font-serif font-medium text-[#0F3829] leading-tight">
                 {currentArtwork.title}
               </h3>
-              {currentArtwork.titleBengali && (
-                <p className="text-lg font-medium text-[#174D38] mt-1 font-serif">
-                  {currentArtwork.titleBengali}
-                </p>
-              )}
             </div>
 
             {/* Stitched line separator */}
@@ -152,11 +147,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
               <p className="text-sm text-[#292621]/90 leading-relaxed font-sans">
                 {currentArtwork.description}
               </p>
-              {currentArtwork.descriptionBengali && (
-                <p className="text-sm text-[#5C5449] mt-2 italic font-serif leading-relaxed">
-                  "{currentArtwork.descriptionBengali}"
-                </p>
-              )}
             </div>
 
             {/* Technique & Craft Details */}

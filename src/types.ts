@@ -10,11 +10,9 @@ export type Category =
 export interface Artwork {
   id: number;
   title: string;
-  titleBengali: string;
   category: Category;
   image: string;
   description: string;
-  descriptionBengali?: string;
   featured: boolean;
   aspect?: 'landscape' | 'portrait' | 'square';
   technique?: string;

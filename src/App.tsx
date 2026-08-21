@@ -58,7 +58,7 @@ export default function App() {
       {/* Top Heritage Micro Banner */}
       <div className="bg-[#0F3829] text-[#FFFDF7] text-[11px] sm:text-xs py-1.5 px-4 text-center border-b border-[#C9A45C]/30 flex items-center justify-center gap-2">
         <span className="text-[#C9A45C]">✦</span>
-        <span className="font-serif tracking-wider">সুতোয় গল্প • Stories in Every Stitch</span>
+        <span className="font-serif tracking-wider">Stories in Every Stitch</span>
         <span className="hidden sm:inline text-[#E6DCC9]/70">— Authentic Handmade Bengali Embroidery & Textile Art</span>
         <span className="text-[#C9A45C]">✦</span>
       </div>

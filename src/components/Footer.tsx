@@ -51,7 +51,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 >
                   <span className="text-[#C9A45C] group-hover:text-[#B85C38]">✦</span>
                   <span>Home</span>
-                  <span className="text-xs text-[#C9A45C]/60">(নীড়পাতা)</span>
                 </button>
               </li>
               <li>
@@ -61,7 +60,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 >
                   <span className="text-[#C9A45C] group-hover:text-[#B85C38]">✦</span>
                   <span>Handcrafts</span>
-                  <span className="text-xs text-[#C9A45C]/60">(হস্তশিল্প)</span>
                 </button>
               </li>
               <li>
@@ -71,7 +69,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 >
                   <span className="text-[#C9A45C] group-hover:text-[#B85C38]">✦</span>
                   <span>About the Artist</span>
-                  <span className="text-xs text-[#C9A45C]/60">(আমার কথা)</span>
                 </button>
               </li>
               <li>
@@ -81,7 +78,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 >
                   <span className="text-[#C9A45C] group-hover:text-[#B85C38]">✦</span>
                   <span>Contact & Custom Order</span>
-                  <span className="text-xs text-[#C9A45C]/60">(যোগাযোগ)</span>
                 </button>
               </li>
             </ul>
@@ -142,7 +138,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-[#174D38] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#E6DCC9]/70">
-          <p>© 2026 সুতোয় গল্প. Handmade with love.</p>
+          <p>© 2026 Sutoy Galpo. Handmade with love.</p>
           <div className="flex items-center gap-1 text-[#C9A45C]">
             <span>Crafted with patience & thread</span>
             <Heart className="w-3.5 h-3.5 text-[#A83232] fill-[#A83232]" />

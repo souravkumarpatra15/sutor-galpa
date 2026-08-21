@@ -54,12 +54,6 @@ export const ArtworkCard: React.FC<ArtworkCardProps> = ({ artwork, onSelect }) =
             </h3>
           </div>
 
-          {artwork.titleBengali && (
-            <p className="text-sm font-medium text-[#174D38] mb-2 font-serif">
-              {artwork.titleBengali}
-            </p>
-          )}
-
           <p className="text-xs text-[#5C5449] line-clamp-2 leading-relaxed font-sans mb-4">
             {artwork.description}
           </p>

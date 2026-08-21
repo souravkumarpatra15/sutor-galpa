@@ -17,35 +17,30 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
       icon: <Trees className="w-6 h-6 text-[#174D38]" />,
       emoji: '🌿',
       title: 'Nature',
-      titleBengali: 'প্রকৃতি ও নিসর্গ',
       desc: 'Flowing rivers, lush green trees, songbirds, and the quiet organic rhythm of rural Bengal.'
     },
     {
       icon: <Flower2 className="w-6 h-6 text-[#B85C38]" />,
       emoji: '🌸',
       title: 'Flowers',
-      titleBengali: 'বুনো ফুল ও শিউলি',
       desc: 'Blooming wildflowers, parijat, lotus, and vibrant marigolds rendered in layered silk thread shades.'
     },
     {
       icon: <HomeIcon className="w-6 h-6 text-[#C9A45C]" />,
       emoji: '🏡',
       title: 'Village Life',
-      titleBengali: 'গ্রাম বাংলার মেঠো সুর',
       desc: 'Quiet riverbanks, wooden boats, thatched cottages, and everyday moments of rural tranquility.'
     },
     {
       icon: <Compass className="w-6 h-6 text-[#0F3829]" />,
       emoji: '🧵',
       title: 'Traditional Craft',
-      titleBengali: 'ঐতিহ্যবাহী কাঁথাস্টিচ',
       desc: 'Centuries-old Kantha heritage, Bengali motifs, alpona designs, and authentic hand needlework.'
     },
     {
       icon: <Heart className="w-6 h-6 text-[#A83232]" />,
       emoji: '❤️',
       title: 'Memories',
-      titleBengali: 'স্মৃতি ও অনুভূতি',
       desc: 'Cherished memories, nostalgic moments, and personal thoughts preserved patiently stitch by stitch.'
     }
   ];
@@ -54,25 +49,21 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
     {
       step: '01',
       title: 'The Beginning',
-      titleBengali: 'শুরুর সেই দিনগুলো',
       description: 'A love for stitching and handmade creativity begins with simple designs, handloom exploration, and basic pattern needlework.'
     },
     {
       step: '02',
       title: 'Learning Through Practice',
-      titleBengali: 'চর্চায় গড়ে ওঠা হাত',
       description: 'With every piece, new techniques, intricate stitch varieties, and creative storytelling take shape on cotton and raw tussar silk.'
     },
     {
       step: '03',
       title: 'Finding Her Signature Style',
-      titleBengali: 'নিজের ধারা খুঁজে পাওয়া',
       description: 'Traditional folk motifs, Bengali nursery rhymes, Pather Panchali cinema homages, and nature come together in harmony.'
     },
     {
       step: '04',
       title: 'Preserving Heritage Today',
-      titleBengali: 'আজকের পথচলা',
       description: 'Each new artwork continues the artistic journey — weaving memories and heritage, one patient, heartfelt stitch at a time.'
     }
   ];
@@ -84,9 +75,7 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
       <section id="about-page-header" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader
           badge="The Artisan Story"
-          badgeBengali="শিল্পীর কথা ও জীবনগাঁথা"
           title="The Hands Behind Every Stitch"
-          titleBengali="সুতো, সেলাই আর সৃষ্টির রূপকথা"
           description="A lifelong dedication to preserving Bengali needlecraft heritage—turning pure cotton and tussar silk into woven heirloom stories with needle, thread, and boundless love."
           icon="feather"
         />
@@ -102,12 +91,27 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
               <div className="absolute -inset-3 border-2 border-dashed border-[#C9A45C] rounded-3xl rotate-1 pointer-events-none" />
               
               <div className="relative bg-[#FFFDF7] p-8 rounded-3xl shadow-xl border border-[#E6DCC9] overflow-hidden text-center flex flex-col items-center">
-                <div className="p-6 bg-[#F8F3E8] rounded-2xl border border-[#E6DCC9]/60 w-full flex justify-center">
-                  <BrandLogo size="lg" showSubtitle={true} />
+                <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden border-4 border-[#C9A45C] shadow-lg">
+                  <img
+                    src="/assets/rita-dey-profile.jpeg"
+                    alt="Rita Dey — Textile Artist"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <h2 className="mt-5 text-2xl font-serif font-semibold text-[#0F3829]">
+                  Rita Dey
+                </h2>
+                <p className="text-sm font-medium text-[#B85C38] tracking-wide uppercase">
+                  Textile & Embroidery Artist
+                </p>
+
+                <div className="mt-5 pt-4 border-t border-dashed border-[#C9A45C]/60 w-full">
+                  <BrandLogo size="sm" showSubtitle={false} />
                 </div>
 
                 <div className="mt-5 pt-4 border-t border-dashed border-[#C9A45C]/60 w-full text-xs text-[#8A7D6B] flex items-center justify-between">
-                  <span className="font-serif italic text-sm text-[#174D38] font-medium">হাতের সেলাইয়ে প্রাণের ছোঁয়া</span>
+                  <span className="font-serif italic text-sm text-[#174D38] font-medium">A Touch of Life in Every Stitch</span>
                   <span className="font-mono text-[#B85C38] font-semibold">Handcraft Heritage</span>
                 </div>
               </div>
@@ -118,7 +122,7 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-dashed border-[#C9A45C] bg-[#FFFDF7] text-[#B85C38] text-xs tracking-[0.2em] font-semibold uppercase shadow-xs">
               <span>✦</span>
-              <span>ABOUT THE ARTIST • আমার কথা</span>
+              <span>ABOUT THE ARTIST • RITA DEY</span>
               <span>✦</span>
             </div>
 
@@ -127,7 +131,7 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
             </h1>
 
             <p className="text-2xl sm:text-3xl font-serif font-medium text-[#174D38]">
-              সুতো, সেলাই আর সৃষ্টির গল্প
+              A Story Woven in Thread and Stitch
             </p>
 
             <div className="space-y-4 text-base sm:text-lg text-[#292621]/90 leading-relaxed font-sans">
@@ -169,9 +173,6 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
           <blockquote className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-[#0F3829] leading-snug">
             Art does not always begin with a blank canvas. Sometimes it begins with a simple piece of cloth and a single thread.
           </blockquote>
-          <p className="text-lg sm:text-xl font-serif text-[#174D38]">
-            শিল্পের সূচনা সর্বদা ক্যানভাসে হয় না; এক টুকরো সাধারণ কাপড় আর একটি সুতো দিয়েই শুরু হয় তার যাত্রা।
-          </p>
           <StitchDivider variant="thread" />
         </div>
       </section>
@@ -181,7 +182,6 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
         <SectionHeading
           label="The Evolution"
           title="Her Creative Journey"
-          bengaliTitle="একটি শিল্পের বিকাশ ও পথচলা"
           subtitle="How curiosity, practice, and passion shaped a distinctive embroidery voice."
         />
 
@@ -213,9 +213,6 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
                       <h3 className="text-xl font-serif font-semibold text-[#0F3829] mt-1">
                         {step.title}
                       </h3>
-                      <p className="text-sm font-medium text-[#174D38] font-serif mb-2">
-                        {step.titleBengali}
-                      </p>
                       <p className="text-sm text-[#5C5449] leading-relaxed font-sans">
                         {step.description}
                       </p>
@@ -234,7 +231,6 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
         <SectionHeading
           label="Roots & Motifs"
           title="Sources of Inspiration"
-          bengaliTitle="অনুপ্রেরণার উৎসসমূহ"
           subtitle="The everyday wonders and cultural traditions that breathe life into every stitch."
         />
 
@@ -256,9 +252,6 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
                   <h3 className="text-lg font-serif font-semibold text-[#0F3829] group-hover:text-[#B85C38] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs font-serif text-[#174D38] font-medium">
-                    {item.titleBengali}
-                  </p>
                 </div>
 
                 <p className="text-xs text-[#5C5449] leading-relaxed font-sans">

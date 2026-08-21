@@ -44,11 +44,6 @@ export const CTASection: React.FC<CTASectionProps> = ({ onNavigate }) => {
           Have a Story You'd Like to See Stitched?
         </h2>
 
-        {/* Bengali subtitle */}
-        <p className="text-lg sm:text-xl font-serif text-[#C9A45C] mb-6">
-          আপনার মনের কোনো প্রিয় গল্প বা অনুভূতি রূপ নিক সুতোয়
-        </p>
-
         {/* Description */}
         <p className="text-base sm:text-lg text-[#E6DCC9] max-w-2xl mx-auto leading-relaxed mb-8">
           Turn a memory, idea, name or special moment into something handmade, authentic and deeply personal. Every custom piece is crafted with undivided care.

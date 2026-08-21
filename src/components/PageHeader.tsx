@@ -3,9 +3,7 @@ import { Sparkles, Scissors, Heart, Mail, Palette, Feather } from 'lucide-react'
 
 interface PageHeaderProps {
   badge: string;
-  badgeBengali?: string;
   title: string;
-  titleBengali: string;
   description: string;
   icon?: 'palette' | 'feather' | 'heart' | 'mail' | 'scissors';
   patternVariant?: 'emerald' | 'gold' | 'terracotta' | 'heritage';
@@ -13,9 +11,7 @@ interface PageHeaderProps {
 
 export const PageHeader: React.FC<PageHeaderProps> = ({
   badge,
-  badgeBengali,
   title,
-  titleBengali,
   description,
   icon = 'palette',
   patternVariant = 'emerald',
@@ -85,12 +81,6 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-[#C9A45C]/50 text-[#F5E6C8] text-xs font-semibold uppercase tracking-[0.25em] shadow-inner">
             {renderIcon()}
             <span>{badge}</span>
-            {badgeBengali && (
-              <>
-                <span className="text-[#C9A45C]">•</span>
-                <span className="font-serif tracking-normal text-xs font-medium text-[#FFFDF7]">{badgeBengali}</span>
-              </>
-            )}
           </div>
 
           {/* Main Titles */}
@@ -98,10 +88,6 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-[#FFFDF7] tracking-tight leading-tight">
               {title}
             </h1>
-
-            <p className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#D4AF37] leading-relaxed drop-shadow-xs">
-              {titleBengali}
-            </p>
           </div>
 
           {/* Golden Stitched Divider with Embroidery Needle */}

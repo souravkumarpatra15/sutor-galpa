@@ -77,9 +77,7 @@ export const Contact: React.FC = () => {
       <section id="contact-hero" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader
           badge="Connect & Custom Orders"
-          badgeBengali="যোগাযোগ ও ফরমাশ"
           title="Have a Handmade Idea?"
-          titleBengali="সুতোয় বোনা নতুন কোনো গল্পের শুরুতে"
           description="If you would like to inquire about an artwork, discuss a custom embroidered piece, collaborate, or simply connect with the artist, we'd love to hear from you."
           icon="mail"
         />
@@ -200,7 +198,7 @@ export const Contact: React.FC = () => {
                   Tell Us Your Idea
                 </h2>
                 <p className="text-sm font-medium text-[#174D38] font-serif mt-1">
-                  আপনার পছন্দের নকশা বা পরিকল্পনা জানান
+                  Share your preferred design or plan with us
                 </p>
                 <p className="text-xs sm:text-sm text-[#5C5449] mt-2 font-sans">
                   Whether it’s a bespoke textile for your living space or a personalized gift for a loved one, let's start the conversation.
@@ -306,7 +304,7 @@ export const Contact: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl border border-[#E6DCC9] bg-[#F8F3E8]/50 text-[#292621] text-sm focus:outline-none focus:ring-2 focus:ring-[#174D38] transition-colors"
                     >
-                      <option value="Custom Artwork">Custom Artwork (কাস্টম সেলাই শিল্প)</option>
+                      <option value="Custom Artwork">Custom Artwork</option>
                       <option value="Existing Artwork">Enquiry About Existing Artwork</option>
                       <option value="Collaboration">Artistic Collaboration / Exhibition</option>
                       <option value="General Enquiry">General Appreciation / Enquiry</option>
